@@ -1,0 +1,27 @@
+.lab {
+    font-size: 30px;
+    background-image: linear-gradient(60deg, #b3d8da, #376e89);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #8fb1eb;
+    opacity: 1; /* Firefox */
+    font-size: 17px;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #8fb1eb;
+    font-size: 17px;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #8fb1eb;
+    font-size: 17px;
+  }
+
+  .contactBt:hover {
+    cursor: pointer;
+  }
