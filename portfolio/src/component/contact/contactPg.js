@@ -34,10 +34,8 @@ const Contact = () => {
             <br/><br/><br/>
         <div className="col align-self-center">
           <div style={{width: "500px", height: "500px", marginLeft: "30%"}}>
-          {/* <!-- contact form --> */}
           <form ref={form} onSubmit={sendEmail}>
             <div style={{display: "grid", margin: "10px -1%", width: "900px",height: "100px", gap: "2em", gridTemplateColumns: "289px 1fr 1fr 1fr"}}>
-                {/* <!-- name --> */}
             <div className="form-group">
               <input
                 type="name"
@@ -49,7 +47,6 @@ const Contact = () => {
               />
             </div>
 
-            {/* <!-- email --> */}
             <div className="form-group">
               <input
                 type="email"
@@ -62,7 +59,6 @@ const Contact = () => {
             </div>
             </div>
 
-            {/* <!-- subject --> */}
             <div style={{marginTop: "-30px", marginLeft: "-5px"}}>
               <input
                 type="text"
